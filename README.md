@@ -8,7 +8,6 @@ Este projeto é uma API para gerenciamento de músicas, com funcionalidades para
 
 - **Laravel**: Framework PHP para construção do backend e da API RESTful.
 - **MySQL**: Banco de dados para armazenamento de informações.
-- **JWT (JSON Web Tokens)**: Utilizado para autenticação e segurança da API.
 - **GuzzleHTTP**: Cliente HTTP para fazer requisições externas, como obter informações de vídeos do YouTube.
 ---
 
