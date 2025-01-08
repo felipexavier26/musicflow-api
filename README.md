@@ -62,7 +62,7 @@ Este projeto é uma API para gerenciamento de músicas, com funcionalidades para
 1. **Clone o Repositório**:
    ```bash
    git clone https://github.com/felipexavier26/musicflow-api.git
-   cd musicflow
+   cd musicflow-api
 
 
 ### Passos
