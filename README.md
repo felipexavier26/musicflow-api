@@ -75,7 +75,8 @@ Este projeto é uma API para gerenciamento de músicas, com funcionalidades para
    - Copie o arquivo de exemplo de configuração
    cp .env.example .env
 
-3. **Configuração do Banco de Dados: No arquivo .env, configure os parâmetros do banco de dados:**:   
+3. **Configuração do Banco de Dados: No arquivo .env, configure os parâmetros do banco de dados:**:
+    ```bash
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
@@ -84,19 +85,19 @@ Este projeto é uma API para gerenciamento de músicas, com funcionalidades para
     DB_PASSWORD=
 
 
-4. **Execute as migrações e seeders**:
+5. **Execute as migrações e seeders**:
    ```bash
     php artisan migrate --seed
 
-5. **Geração de Chave da Aplicação**:
+6. **Geração de Chave da Aplicação**:
    ```bash
     php artisan key:generate
 
 
-6. **Inicie o Servidor de Desenvolviment**:
+7. **Inicie o Servidor de Desenvolviment**:
     ```bash
     php artisan serve
 
-7. **Acesse a API**:
+8. **Acesse a API**:
     ```bash
     Abra o navegador ou use uma ferramenta como o Postman para acessar os endpoints da API em http://127.0.0.1:8000/api/musicas.
